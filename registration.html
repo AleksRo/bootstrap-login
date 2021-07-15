@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a31a33e6cb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/styles/vendors/bootstrap-5.0.0-beta3-dist/bootstrap.css">
+    <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <title> LOGIN FORM</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sign-up">
+            <div class="sign-up__discription">
+                <div class="line"></div>
+                <h1 class="sign-up__title">Register</h1>
+                <div class="line"></div>
+            </div>
+            <p class="sign-up__text">
+                Create your account. It's free and only takes a minutes.
+            </p>
+            <form class="form__sign-up" method="POST" name="vform">
+                
+                <input type="text" id="username" name="username" class="form__input" placeholder="Username">
+                <div id="error_name" class="val_error"></div>
+
+                <input type="email" name="email" id="email" class="form__input" placeholder="Email">
+                <div id="error_email" class="val_error"></div>
+                
+                <input type="password" id="password" name="password" class="form__input" placeholder="Password">
+                <div id="error_password" class="val_error"></div>
+                
+                <input type="password" id="password_confirmation" name="password_confirmation" class="form__input" placeholder="Confirmation Password">
+                <div id="password_confirmation_error" class="val_error"></div>
+
+                <label for="scales" class="form__checkbox"><input type="checkbox" id="scales" name="scales">Rules</label>
+                <div id="error_scales" class="val_error"></div>
+                <div class="form__sub-element"></div>
+                    <button type="button" onclick="Validate()" name="register" value="Register" class="btn-reg">
+                        I accept
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

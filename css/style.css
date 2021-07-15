@@ -1,0 +1,196 @@
+body {
+    background-color: #222D32 !important;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.login {
+    margin-top: 75px;
+    background: #1A2226;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 39px;
+}
+
+.key {
+    font-size: 63px;
+    margin: 11px 10px 0px 10px;
+    color: white;
+}
+
+.login__title {
+    font-size: 26px;
+    color: white;
+    margin-top: 20px;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+
+.login__subtitle {
+    color: grey;
+    font-size: 10px;
+    margin: 30px 0 10px;
+}
+
+.login__input {
+    width: 100%;
+    max-width: 500px;
+}
+
+.login__email {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+}
+
+.login__password {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+}
+
+.form__btn {
+    color: #0DB8DE;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #0DB8DE;
+    max-width: 100px;
+    margin-top: 20px;
+    align-self: flex-end;
+}
+
+.form__btn:hover {
+    background-color: white;
+}
+
+.form__element {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/*Register */
+
+.line {
+    background-color: #0DB8DE;
+    width: 100px;
+    height: 1px;
+}
+
+.sign-up__title {
+    color: white;
+    margin: 0 10px 0 10px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up__discription {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form__sign-up {
+    max-width: 432px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up__text {
+    color: grey;
+    margin-top: 17px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+
+.form__group1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#form__name {
+    margin-right: 43px;
+}
+
+.form__input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #0DB8DE;
+    margin-top: 36px;
+    color: white;
+    padding: 8px 13px;
+    font-size: 12px;
+}
+
+.form__input-login {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #0DB8DE;
+    color: white;
+    padding: 8px 13px;
+    font-size: 12px;
+}
+
+.form__checkbox {
+    color: white;
+    font-size: 12px;
+}
+
+.btn-reg {
+    color: #0DB8DE;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #0DB8DE;
+    max-width: 299px;
+    margin-top: 20px;
+    align-self: center;
+    width: 100%;
+}
+
+.form__sub-element {
+    display: flex;
+    justify-content: center;
+}
+
+#scales {
+    margin-top: 30px;
+    margin-right: 6px;
+}
+
+.val_error {
+    color: #FF1F1F;
+    font-size: 12px;
+}
+
+
+input[type="text"], input[type="password"], input[type="email"], input[type="username"], textarea, select { 
+    outline: none;
+}
+
+#error-pass {
+    display: none;
+    color: red;
+}
